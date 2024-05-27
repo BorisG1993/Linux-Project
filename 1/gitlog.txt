@@ -1,0 +1,34 @@
+commit bdfdeb5ad2fc194d9d105b8907feb0e2d384a3ea (HEAD -> BR_2, origin/BR_2)
+Author: BorisG <borisgur1993@gmail.com>
+Date:   Sun May 26 17:13:04 2024 +0300
+
+    Auto commit: Sun 26 May 2024 17:13:04 IDT:   321,Bug3,BR_2,‫‪g.choen‬‬,4,‫…‬
+    328,Bug5,BR_2,‫‪g.choen‬‬,4,‫…‬
+
+
+commit b6219b56e66eddf885762ad1c442420cba490784 (HEAD -> BR_1, origin/BR_1)
+Author: BorisG <borisgur1993@gmail.com>
+Date:   Sun May 26 17:12:36 2024 +0300
+
+    Auto commit: Sun 26 May 2024 17:12:36 IDT:   ‫‪234‬‬,Bug1,BR_1,‫‪g.choen‬‬,‫‪3‬‬,‫…‬
+    ‫‪237,Bug2,BR_1,‫‪g.choen‬‬,2,‫…‬
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Example of run:
+
+borisg@fedora:~/dev/lInux/project/1$ ./commit.sh
+[BR_1 2895d66] Auto commit: Sun 26 May 2024 17:21:03 IDT:   ‫‪234‬‬,Bug1,BR_1,‫‪g.choen‬‬,‫‪3‬‬,‫…‬ ‫‪237,Bug2,BR_1,‫‪g.choen‬‬,2,‫…‬
+ 2 files changed, 23 insertions(+), 1 deletion(-)
+ create mode 100644 gitlog.txt
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 847 bytes | 423.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:BorisG1993/Linux-Project.git
+   b6219b5..2895d66  BR_1 -> BR_1
+Git push successful.
